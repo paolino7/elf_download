@@ -1,0 +1,1 @@
+SELECT Id , EventType , LogFile, LogDate , Interval FROM EventLogFile WHERE LogDate >= LAST_N_DAYS:30 and LogDate < LAST_N_DAYS:29
